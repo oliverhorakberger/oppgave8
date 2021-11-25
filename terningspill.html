@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav class="topNav">
+    <ul>
+        <li> <a href="oppgave8.html">Hjem</a> </li>
+        <li> <a href="terningspill.html">Terningspill</a> </li>
+        <li> <a href="terningspillkode.html">Kode</a> </li>
+        <li> <a href="vaermelding.html">Værmelding</a> </li>
+    </ul>
+</nav>
+
+<br><br><br><br>
+
+<script>
+    let rollResult = Math.floor(Math.random() * 6) + 1;
+    if (rollResult === 1) document.write('<img class="terningbilder" src="Terninger/SVG/terning1.svg" alt="Bilde av terning 1">');
+    else if (rollResult === 2) document.write('<img class="terningbilder" src="Terninger/SVG/terning2.svg" alt="Bilde av terning 2">');
+    else if (rollResult === 3) document.write('<img class="terningbilder" src="Terninger/SVG/terning3.svg" alt="Bilde av terning 3">');
+    else if (rollResult === 4) document.write('<img class="terningbilder" src="Terninger/SVG/terning4.svg" alt="Bilde av terning 4">');
+    else if (rollResult === 5) document.write('<img class="terningbilder" src="Terninger/SVG/terning5.svg" alt="Bilde av terning 5">');
+    else  document.write('<img class="terningbilder" src="Terninger/SVG/terning6.svg" alt="Bilde av terning 6">');
+</script>
+
+
+</body>
+</html>
